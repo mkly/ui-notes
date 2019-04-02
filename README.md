@@ -1,7 +1,7 @@
 # ui-notes
 
 
-[![Build Status](https://circleci.com/gh/folio-org/ui-eholdings/tree/master.svg?style=svg)](https://circleci.com/gh/folio-org/ui-notes)
+[![Build Status](https://circleci.com/gh/folio-org/ui-notes/tree/master.svg?style=svg)](https://circleci.com/gh/folio-org/ui-notes)
 
 
 Copyright (C) 2018 The Open Library Foundation
