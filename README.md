@@ -1,5 +1,9 @@
 # ui-notes
 
+
+[![Build Status](https://circleci.com/gh/folio-org/ui-eholdings/tree/master.svg?style=svg)](https://circleci.com/gh/folio-org/ui-notes)
+
+
 Copyright (C) 2018 The Open Library Foundation
 
 This software is distributed under the terms of the Apache License, Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
