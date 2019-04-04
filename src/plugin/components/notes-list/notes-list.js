@@ -27,7 +27,7 @@ const columnsMap = {
 const noteShape = PropTypes.shape({
   id: PropTypes.string,
   lastSaveDate: PropTypes.string,
-  lastSavedUserName: PropTypes.string,
+  lastSavedUserFullName: PropTypes.string,
   title: PropTypes.string,
 });
 
@@ -66,19 +66,19 @@ export default class NotesList extends React.Component {
     );
   };
 
-  getResults() {
+  getItems() {
     return this.props.notes
       .map(note => {
         const {
           id,
           title,
           lastSavedDate,
-          lastSavedUserName,
+          lastSavedUserFullName,
         } = note;
 
         return {
           id,
-          updatedDate: (
+          lastSavedDate: (
             <FormattedDate
               value={lastSavedDate}
               year="numeric"
@@ -86,7 +86,7 @@ export default class NotesList extends React.Component {
               day="numeric"
             />
           ),
-          lastSavedUserName,
+          lastSavedUserFullName,
           title,
         };
       });
@@ -101,7 +101,7 @@ export default class NotesList extends React.Component {
               id="notes-list"
               interactive
               ariaLabel={ariaLabel}
-              contentData={this.getResults()}
+              contentData={this.getItems()}
               visibleColumns={COLUMN_NAMES}
               columnMapping={columnsMap}
               columnWidths={COLUMN_WIDTHS}
