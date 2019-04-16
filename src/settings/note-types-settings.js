@@ -1,0 +1,67 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import {
+  FormattedMessage,
+  injectIntl,
+  intlShape,
+} from 'react-intl';
+import { ControlledVocab } from '@folio/stripes/smart-components';
+import { validate } from '../util';
+
+class NoteTypesSettings extends React.Component {
+  static propTypes = {
+    intl: intlShape.isRequired,
+    stripes: PropTypes.shape({
+      connect: PropTypes.func.isRequired,
+    }).isRequired,
+  };
+
+  constructor(props) {
+    super(props);
+    this.connectedControlledVocab = props.stripes.connect(ControlledVocab);
+  }
+
+  validateName = (item, index, items) => {
+    const label = this.props.intl.formatMessage({ id: 'ui-notes.settings.noteType' });
+
+    return validate(item, index, items, 'name', label);
+  }
+
+  suppressDelete = (noteType) => noteType.numberOfObjects > 0
+  suppressEdit = () => false
+
+  render() {
+    const {
+      stripes,
+      intl,
+    } = this.props;
+
+    const label = intl.formatMessage({ id: 'ui-notes.settings.noteType' });
+
+    return (
+      <this.connectedControlledVocab
+        stripes={stripes}
+        baseUrl="note-types"
+        records="noteTypes"
+        validate={this.validateName}
+        label={intl.formatMessage({ id: 'ui-notes.settings.noteTypes' })}
+        labelSingular={label}
+        objectLabel={<FormattedMessage id="ui-notes.settings.notes" />}
+        visibleFields={['name']}
+        hiddenFields={['lastUpdated']}
+        actionSuppressor={{
+          edit: this.suppressEdit,
+          delete: this.suppressDelete
+        }}
+        columnMapping={{
+          name: label
+        }}
+        nameKey="name"
+        id="noteTypes"
+        sortby="name"
+      />
+    );
+  }
+}
+
+export default injectIntl(NoteTypesSettings);

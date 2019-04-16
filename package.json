@@ -1,9 +1,9 @@
 {
   "name": "@folio/notes",
   "version": "1.0.0",
-  "description": "Notes management helper app",
-  "main": "src/index.js",
+  "description": "Note types manager",
   "repository": "",
+  "main": "src/index.js",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=6.0.0"
@@ -50,11 +50,14 @@
     "react": "*"
   },
   "stripes": {
-    "type": "app",
+    "type": "settings",
     "displayName": "ui-notes.meta.title",
     "route": "/notes",
     "hasSettings": true,
-    "okapiInterfaces": {},
+    "okapiInterfaces": {
+      "notes": "1.0"
+    },
+    "queryResource": "query",
     "permissionSets": [
       {
         "permissionName": "module.notes.enabled",
