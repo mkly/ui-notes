@@ -39,31 +39,27 @@ class NoteTypesSettings extends React.Component {
     const label = intl.formatMessage({ id: 'ui-notes.settings.noteType' });
 
     return (
-      <div data-test-application-settings-general>
-        <this.connectedControlledVocab
-          stripes={stripes}
-          baseUrl="note-types"
-          records="noteTypes"
-          validate={this.validateName}
-          label={intl.formatMessage({ id: 'ui-notes.settings.noteTypes' })}
-          labelSingular={label}
-          objectLabel={<FormattedMessage id="ui-notes.settings.notes" />}
-          visibleFields={['name']}
-          hiddenFields={['lastUpdated']}
-          actionSuppressor={{
-            edit: this.suppressEdit,
-            delete: this.suppressDelete
-          }}
-          columnMapping={{
-            name: label
-          }}
-          nameKey="name"
-          id="id"
-          sortby="name"
-        />
-      </div>
-
-
+      <this.connectedControlledVocab
+        stripes={stripes}
+        baseUrl="note-types"
+        records="noteTypes"
+        validate={this.validateName}
+        label={intl.formatMessage({ id: 'ui-notes.settings.noteTypes' })}
+        labelSingular={label}
+        objectLabel={<FormattedMessage id="ui-notes.settings.notes" />}
+        visibleFields={['name']}
+        hiddenFields={['lastUpdated']}
+        actionSuppressor={{
+          edit: this.suppressEdit,
+          delete: this.suppressDelete
+        }}
+        columnMapping={{
+          name: label
+        }}
+        nameKey="name"
+        id="noteTypes"
+        sortby="name"
+      />
     );
   }
 }
