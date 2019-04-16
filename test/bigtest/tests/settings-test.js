@@ -18,14 +18,4 @@ describe('Settings', () => {
       expect(settings.generalMessage).to.equal('These are your general app settings.');
     });
   });
-
-  describe('feature', () => {
-    beforeEach(function () {
-      this.visit('/settings/notes/somefeature');
-    });
-
-    it('has a feature settings message', () => {
-      expect(settings.featureMessage).to.equal('These are your settings for some app feature.');
-    });
-  });
 });
