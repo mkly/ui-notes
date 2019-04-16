@@ -1,32 +1,27 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Settings } from '@folio/stripes/smart-components';
-import GeneralSettings from './general-settings';
-import SomeFeatureSettings from './some-feature-settings';
+import NoteTypesSettings from './note-types-settings';
 
-/*
-  STRIPES-NEW-APP
-  Your app's settings pages are defined here.
-  The pages "general" and "some feature" are examples. Name them however you like.
-*/
-
-export default class NotesSettings extends React.Component {
-  pages = [
-    {
-      route: 'general',
-      label: <FormattedMessage id="ui-notes.settings.general" />,
-      component: GeneralSettings,
-    },
-    {
-      route: 'somefeature',
-      label: <FormattedMessage id="ui-notes.settings.some-feature" />,
-      component: SomeFeatureSettings,
-    },
-  ];
+export default class Notes extends React.Component {
+  constructor(props) {
+    super(props);
+    this.pages = [
+      {
+        route: 'general',
+        label: <FormattedMessage id="ui-notes.settings.general" />,
+        component: NoteTypesSettings,
+      }
+    ];
+  }
 
   render() {
     return (
-      <Settings {...this.props} pages={this.pages} paneTitle="ui-notes" />
+      <Settings
+        {...this.props}
+        pages={this.pages}
+        paneTitle={<FormattedMessage id="ui-notes.settings.index.paneTitle" />}
+      />
     );
   }
 }
