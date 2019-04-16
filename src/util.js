@@ -24,8 +24,9 @@ export function validate(item, index, items, field, label) {
 
   for (let i = 0; i < items.length; i++) {
     const obj = items[i];
+    const isUnique = (index !== i) && isDuplicateStrings(obj[field], item[field]);
 
-    if ((index !== i) && isDuplicateStrings(obj[field], item[field])) {
+    if (!isUnique) {
       error[field] = (
         <FormattedMessage
           id="ui-notes.settings.duplicated"
