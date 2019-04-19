@@ -24,7 +24,7 @@ export function validate(item, index, items, field, label) {
 
   for (let i = 0; i < items.length; i++) {
     const obj = items[i];
-    const isDuplicate = (index !== i) && isDuplicateStrings(obj[field], item[field]);
+    const isDuplicate = index !== i && isDuplicateStrings(obj[field], item[field]);
 
     if (isDuplicate) {
       error[field] = (
