@@ -4,5 +4,10 @@
     "settings.noteType": "Note type",
     "settings.notes": "Notes",
     "settings.duplicated": "{field} duplicated",
-    "settings.maxAmout": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
+    "meta.title": "Notes",
+    "new-app.greeting": "Felicitats!",
+    "new-app.message": "Your Stripes app is running.",
+    "settings.general": "General",
+    "settings.general.message": "These are your general app settings."
 }
