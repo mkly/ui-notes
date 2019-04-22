@@ -1,8 +1,13 @@
 {
-    "settings.index.paneTitle": "Notes",
-    "settings.noteTypes": "Note types",
-    "settings.noteType": "Note type",
-    "settings.notes": "Notes",
-    "settings.duplicated": "{field} duplicated",
-    "settings.maxAmout": "Maximum # of note types allowed is {amount}."
+    "settings.index.paneTitle": "Notas",
+    "settings.noteTypes": "Tipos de notas",
+    "settings.noteType": "Tipo de nota",
+    "settings.notes": "Notas",
+    "settings.duplicated": "{field} duplicado",
+    "settings.maxAmout": "Número máximo de tipos de notas permitidos é {amount}.",
+    "meta.title": "Notas",
+    "new-app.greeting": "Parabéns!",
+    "new-app.message": "Seu aplicativo Stripes está em execução.",
+    "settings.general": "Geral",
+    "settings.general.message": "Estas são as suas configurações gerais de aplicativos."
 }
