@@ -21,6 +21,7 @@ module.exports = {
     "arrow-body-style": "off",
     "comma-dangle": "off",
     "import/no-extraneous-dependencies": "off",
+    'jsx-a11y/label-has-associated-control': "off",
     "jsx-quotes": "off",
     "no-console": "warn",
     "prefer-const": "off",
