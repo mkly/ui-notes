@@ -68,7 +68,8 @@
         "permissionName": "settings.notes.enabled",
         "displayName": "Settings (notes): display list of settings pages",
         "subPermissions": [
-          "settings.enabled"
+          "settings.enabled",
+          "note.types.allops"
         ],
         "visible": true
       }
