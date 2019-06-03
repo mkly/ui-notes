@@ -72,6 +72,55 @@
           "note.types.allops"
         ],
         "visible": true
+      },
+      {
+        "permissionName": "ui-notes.item.view",
+        "displayName": "Notes - get individual note from storage",
+        "subPermissions": [
+          "notes.item.get",
+          "notes.domain.all",
+          "module.notes.enabled"
+        ],
+        "visible": true
+      },
+      {
+        "permissionName": "ui-notes.item.create",
+        "displayName": "Notes - create note",
+        "subPermissions": [
+          "notes.item.post",
+          "notes.domain.all",
+          "ui-notes.item.view"
+        ],
+        "visible": true
+      },
+      {
+        "permissionName": "ui-notes.item.edit",
+        "displayName": "Notes - modify note",
+        "subPermissions": [
+          "notes.item.put",
+          "notes.domain.all",
+          "ui-notes.item.view"
+        ],
+        "visible": true
+      },
+      {
+        "permissionName": "ui-notes.item.delete",
+        "displayName": "Notes - delete note",
+        "subPermissions": [
+          "notes.item.delete",
+          "notes.domain.all",
+          "ui-notes.item.view"
+        ],
+        "visible": true
+      },
+      {
+        "permissionName": "ui-notes.item.assign-unassign",
+        "displayName": "Note links - update note links",
+        "subPermissions": [
+          "note.links.collection.put",
+          "ui-notes.item.view"
+        ],
+        "visible": true
       }
     ]
   }
