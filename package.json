@@ -78,6 +78,8 @@
         "displayName": "Notes - get individual note from storage",
         "subPermissions": [
           "notes.item.get",
+          "notes.collection.get",
+          "notes.collection.get.by.status",
           "notes.domain.all",
           "module.notes.enabled"
         ],
