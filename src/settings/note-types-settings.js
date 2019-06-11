@@ -5,6 +5,8 @@ import {
   injectIntl,
   intlShape,
 } from 'react-intl';
+import { get } from 'lodash';
+
 import { ControlledVocab } from '@folio/stripes/smart-components';
 import { validate } from '../util';
 
@@ -27,7 +29,7 @@ class NoteTypesSettings extends React.Component {
     return validate(item, index, items, 'name', label);
   }
 
-  suppressDelete = (noteType) => noteType.numberOfObjects > 0
+  suppressDelete = (noteType) => get(noteType, 'usage.noteTotal') > 0
   suppressEdit = () => false
 
   render() {
@@ -49,6 +51,7 @@ class NoteTypesSettings extends React.Component {
         objectLabel={<FormattedMessage id="ui-notes.settings.notes" />}
         visibleFields={['name']}
         hiddenFields={['lastUpdated']}
+        formatter={{ 'numberOfObjects': (item) => get(item, 'usage.noteTotal') }}
         actionSuppressor={{
           edit: this.suppressEdit,
           delete: this.suppressDelete
