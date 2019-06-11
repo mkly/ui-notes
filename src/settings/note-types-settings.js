@@ -55,8 +55,7 @@ class NoteTypesSettings extends React.Component {
         actionSuppressor={{
           edit: this.suppressEdit,
           delete: this.suppressDelete
-        }
-        }
+        }}
         columnMapping={{
           name: label
         }}
