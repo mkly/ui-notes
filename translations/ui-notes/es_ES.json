@@ -6,8 +6,5 @@
     "settings.duplicated": "{field} duplicado",
     "settings.maxAmout": "El número máximo de tipos de notas permitidos es {amount} .",
     "meta.title": "Notas",
-    "new-app.greeting": "!Enhorabuena!",
-    "new-app.message": "Tu aplicación de Stripes se está ejecutando.",
-    "settings.general": "General",
-    "settings.general.message": "Estos son los ajustes generales de la aplicación."
+    "settings.general": "General"
 }

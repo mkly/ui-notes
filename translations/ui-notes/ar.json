@@ -6,8 +6,5 @@
     "settings.duplicated": "{field} مكرر",
     "settings.maxAmout": "الحد الأقصى لعدد أنواع الملاحظات المسموح بها هو {amount} .",
     "meta.title": "ملاحظات",
-    "new-app.greeting": "تهانينا!",
-    "new-app.message": "تطبيق Stripes الخاص بك قيد التشغيل.",
-    "settings.general": "عام",
-    "settings.general.message": "هذه هي إعداداتك العامة للتطبيق"
+    "settings.general": "عام"
 }
