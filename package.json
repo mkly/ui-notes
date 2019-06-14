@@ -75,7 +75,7 @@
       },
       {
         "permissionName": "ui-notes.item.view",
-        "displayName": "Notes - get individual note from storage",
+        "displayName": "Notes: Can view a note",
         "subPermissions": [
           "notes.item.get",
           "notes.collection.get",
@@ -87,7 +87,7 @@
       },
       {
         "permissionName": "ui-notes.item.create",
-        "displayName": "Notes - create note",
+        "displayName": "Notes: Can create a note",
         "subPermissions": [
           "notes.item.post",
           "notes.domain.all",
@@ -97,7 +97,7 @@
       },
       {
         "permissionName": "ui-notes.item.edit",
-        "displayName": "Notes - modify note",
+        "displayName": "Notes: Can edit a note",
         "subPermissions": [
           "notes.item.put",
           "notes.domain.all",
@@ -107,7 +107,7 @@
       },
       {
         "permissionName": "ui-notes.item.delete",
-        "displayName": "Notes - delete note",
+        "displayName": "Notes: Can delete a note",
         "subPermissions": [
           "notes.item.delete",
           "notes.domain.all",
@@ -117,7 +117,7 @@
       },
       {
         "permissionName": "ui-notes.item.assign-unassign",
-        "displayName": "Note links - update note links",
+        "displayName": "Notes: Can assign and unassign a note",
         "subPermissions": [
           "note.links.collection.put",
           "ui-notes.item.view"
