@@ -1,5 +1,12 @@
 # Change history for ui-notes
 
+
+## [1.2.0](https://github.com/folio-org/ui-notes/tree/v1.2.0) (2019-07-24)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.1.0...v1.2.0)
+
+* Fixed security vulnerabilities (UINOTES-28)
+* Made permissions' names more user-friendly 
+
 ## [1.1.0](https://github.com/folio-org/ui-notes/tree/v1.1.0) (2019-06-11)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.0.0...v1.1.0)
 
