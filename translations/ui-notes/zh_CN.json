@@ -1,10 +1,10 @@
 {
-    "settings.index.paneTitle": "Notes",
-    "settings.noteTypes": "Note types",
-    "settings.noteType": "Note type",
-    "settings.notes": "Notes",
-    "settings.duplicated": "{field} duplicated",
-    "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
-    "meta.title": "Notes",
-    "settings.general": "General"
+    "settings.index.paneTitle": "附注",
+    "settings.noteTypes": "附注类型",
+    "settings.noteType": "附注类型",
+    "settings.notes": "附注",
+    "settings.duplicated": "{field}重复",
+    "settings.maxAmout": "允许的附注类型最大#为{amount} 。",
+    "meta.title": "附注",
+    "settings.general": "通用"
 }
