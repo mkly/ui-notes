@@ -1,6 +1,11 @@
 # Change history for ui-notes
 
 
+## [1.3.0](https://github.com/folio-org/ui-notes/tree/v1.3.0) (2019-09-10)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.2.0...v1.3.0)
+
+* Added German translation of the "Note type" and Chinese translations
+
 ## [1.2.0](https://github.com/folio-org/ui-notes/tree/v1.2.0) (2019-07-24)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.1.0...v1.2.0)
 
