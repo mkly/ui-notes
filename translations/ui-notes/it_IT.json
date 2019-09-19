@@ -1,10 +1,10 @@
 {
-    "settings.index.paneTitle": "Notes",
+    "settings.index.paneTitle": "Note",
     "settings.noteTypes": "Tipologie nota",
     "settings.noteType": "Tipologia nota",
-    "settings.notes": "Notes",
+    "settings.notes": "Note",
     "settings.duplicated": "{field} duplicated",
     "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
     "meta.title": "Note",
-    "settings.general": "General"
+    "settings.general": "Generale"
 }
