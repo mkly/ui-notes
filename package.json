@@ -76,6 +76,7 @@
         "permissionName": "ui-notes.item.view",
         "displayName": "Notes: Can view a note",
         "subPermissions": [
+          "note.types.collection.get",
           "notes.item.get",
           "notes.collection.get",
           "notes.collection.get.by.status",
