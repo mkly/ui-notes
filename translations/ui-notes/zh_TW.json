@@ -1,0 +1,10 @@
+{
+    "settings.index.paneTitle": "附注",
+    "settings.noteTypes": "附注类型",
+    "settings.noteType": "附注类型",
+    "settings.notes": "附注",
+    "settings.duplicated": "{field}重复",
+    "settings.maxAmout": "允许的附注类型最大为{amount} 。",
+    "meta.title": "附注",
+    "settings.general": "通用"
+}
