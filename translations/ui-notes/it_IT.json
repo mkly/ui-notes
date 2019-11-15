@@ -3,8 +3,8 @@
     "settings.noteTypes": "Tipologie nota",
     "settings.noteType": "Tipologia nota",
     "settings.notes": "Note",
-    "settings.duplicated": "{field} duplicated",
-    "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
+    "settings.duplicated": "{field} duplicato",
+    "settings.maxAmout": "Il numero massimo di tipi di nota consentiti è {amount} .",
     "meta.title": "Note",
     "settings.general": "Generale"
 }
