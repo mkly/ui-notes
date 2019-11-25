@@ -1,10 +1,10 @@
 {
-    "settings.index.paneTitle": "Notes",
-    "settings.noteTypes": "Note types",
-    "settings.noteType": "Note type",
-    "settings.notes": "Notes",
+    "settings.index.paneTitle": "Commentaires",
+    "settings.noteTypes": "Types de commentaire",
+    "settings.noteType": "Type de commentaire",
+    "settings.notes": "Commentaires",
     "settings.duplicated": "{field} duplicated",
     "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
     "meta.title": "Notes",
-    "settings.general": "General"
+    "settings.general": "Général"
 }
