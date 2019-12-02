@@ -6,5 +6,5 @@
     "settings.duplicated": "{field} duplicated",
     "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
     "meta.title": "Notes",
-    "settings.general": "General"
+    "settings.general": "Общие"
 }
