@@ -1,5 +1,9 @@
 # Change history for ui-notes
 
+## [1.4.0](https://github.com/folio-org/ui-notes/tree/v1.4.0) (2019-12-04)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.3.0...v1.4.0)
+
+* Add GET note types permission as a note view subpermission (UINOTES-57)
 
 ## [1.3.0](https://github.com/folio-org/ui-notes/tree/v1.3.0) (2019-09-10)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.2.0...v1.3.0)
