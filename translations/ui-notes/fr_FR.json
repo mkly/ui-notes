@@ -3,7 +3,7 @@
     "settings.noteTypes": "Types de commentaire",
     "settings.noteType": "Type de commentaire",
     "settings.notes": "Commentaires",
-    "settings.duplicated": "{field} duplicated",
+    "settings.duplicated": "{field} dupliqué",
     "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
     "meta.title": "Commentaires",
     "settings.general": "Général"
