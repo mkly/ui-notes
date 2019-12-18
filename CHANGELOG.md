@@ -1,5 +1,10 @@
 # Change history for ui-notes
 
+## [1.4.1](https://github.com/folio-org/ui-notes/tree/v1.4.1) (2019-12-18)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.4.0...v1.4.1)
+
+* Fix security vulnerabilities
+
 ## [1.4.0](https://github.com/folio-org/ui-notes/tree/v1.4.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.3.0...v1.4.0)
 
