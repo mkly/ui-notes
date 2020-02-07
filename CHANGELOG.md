@@ -1,5 +1,9 @@
 # Change history for ui-notes
 
+## [1.5.0](IN PROGRESS)
+
+* Update eslint v6.2.1 (UINOTES-70)
+
 ## [1.4.1](https://github.com/folio-org/ui-notes/tree/v1.4.1) (2019-12-18)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.4.0...v1.4.1)
 

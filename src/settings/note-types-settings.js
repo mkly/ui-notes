@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {
   FormattedMessage,
@@ -10,14 +10,7 @@ import { get } from 'lodash';
 import { ControlledVocab } from '@folio/stripes/smart-components';
 import { validate } from '../util';
 
-class NoteTypesSettings extends React.Component {
-  static propTypes = {
-    intl: intlShape.isRequired,
-    stripes: PropTypes.shape({
-      connect: PropTypes.func.isRequired,
-    }).isRequired,
-  };
-
+class NoteTypesSettings extends Component {
   constructor(props) {
     super(props);
     this.connectedControlledVocab = props.stripes.connect(ControlledVocab);
@@ -66,5 +59,12 @@ class NoteTypesSettings extends React.Component {
     );
   }
 }
+
+NoteTypesSettings.propTypes = {
+  intl: intlShape.isRequired,
+  stripes: PropTypes.shape({
+    connect: PropTypes.func.isRequired,
+  }).isRequired,
+};
 
 export default injectIntl(NoteTypesSettings);
