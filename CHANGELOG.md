@@ -1,5 +1,10 @@
 # Change history for ui-notes
 
+## [2.0.0](https://github.com/folio-org/ui-notes/tree/v2.0.0) (2020-03-13)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.4.0...v2.0.0)
+
+* Migrate to stripes v3.0.0 and move react-intl and react-router to peerDependencies.
+
 ## [1.4.1](https://github.com/folio-org/ui-notes/tree/v1.4.1) (2019-12-18)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.4.0...v1.4.1)
 
