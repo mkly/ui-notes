@@ -6,5 +6,5 @@
     "settings.duplicated": "{field}重复",
     "settings.maxAmout": "允许的附注类型最大为{amount} 。",
     "meta.title": "附註",
-    "settings.general": "通用"
+    "settings.general": "一般"
 }
