@@ -1,5 +1,9 @@
 # Change history for ui-notes
 
+## [3.0.0] (IN PROGRESS)
+
+* Update react-intl to v4
+
 ## [2.0.0](https://github.com/folio-org/ui-notes/tree/v2.0.0) (2020-03-13)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.4.0...v2.0.0)
 
