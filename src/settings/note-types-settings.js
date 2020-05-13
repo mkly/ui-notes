@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import {
   FormattedMessage,
   injectIntl,
-  intlShape,
 } from 'react-intl';
 import { get } from 'lodash';
 
@@ -61,7 +60,7 @@ class NoteTypesSettings extends Component {
 }
 
 NoteTypesSettings.propTypes = {
-  intl: intlShape.isRequired,
+  intl: PropTypes.object.isRequired,
   stripes: PropTypes.shape({
     connect: PropTypes.func.isRequired,
   }).isRequired,
