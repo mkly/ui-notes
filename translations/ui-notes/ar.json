@@ -6,5 +6,12 @@
     "settings.duplicated": "{field} مكرر",
     "settings.maxAmout": "الحد الأقصى لعدد أنواع الملاحظات المسموح بها هو {amount} .",
     "meta.title": "ملاحظات",
-    "settings.general": "عام"
+    "settings.general": "عام",
+    "permission.module.notes.enabled": "واجهة المستخدم: تم تفعيل وحدة ملاحظات-واجهة المستخدم",
+    "permission.notes.enabled": "الإعدادات (ملاحظات): اعرض قائمة بصفحات الإعدادات",
+    "permission.item.view": "ملاحظات: إمكانية عرض ملاحظة",
+    "permission.item.create": "ملاحظات: إمكانية إنشاء ملاحظة",
+    "permission.item.edit": "ملاحظات: إمكانية تحرير ملاحظة",
+    "permission.item.delete": "ملاحظات: إمكانية حذف ملاحظة",
+    "permission.item.assign-unassign": "ملاحظات: إمكانية تعيين وإلغاء تعيين ملاحظة"
 }

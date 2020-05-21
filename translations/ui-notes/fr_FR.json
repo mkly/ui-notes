@@ -6,5 +6,12 @@
     "settings.duplicated": "{field} dupliqué",
     "settings.maxAmout": "Le nombre maximal de types de notes autorisés est de {amount} .",
     "meta.title": "Commentaires",
-    "settings.general": "Général"
+    "settings.general": "Général",
+    "permission.module.notes.enabled": "UI: ui-notes module is enabled",
+    "permission.notes.enabled": "Settings (notes): display list of settings pages",
+    "permission.item.view": "Notes: Can view a note",
+    "permission.item.create": "Notes: Can create a note",
+    "permission.item.edit": "Notes: Can edit a note",
+    "permission.item.delete": "Notes: Can delete a note",
+    "permission.item.assign-unassign": "Notes: Can assign and unassign a note"
 }

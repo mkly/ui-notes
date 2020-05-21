@@ -6,5 +6,12 @@
     "settings.duplicated": "{field} duplicado",
     "settings.maxAmout": "Número máximo de tipos de notas permitidos é {amount}.",
     "meta.title": "Notas",
-    "settings.general": "Geral"
+    "settings.general": "Geral",
+    "permission.module.notes.enabled": "UI: o módulo ui-notes está ativado",
+    "permission.notes.enabled": "Configurações (notas): exibe a lista de páginas de configurações",
+    "permission.item.view": "Notas: Pode ver uma nota",
+    "permission.item.create": "Notas: Pode criar uma nota",
+    "permission.item.edit": "Notas: Pode editar uma nota",
+    "permission.item.delete": "Notas: Pode excluir uma nota",
+    "permission.item.assign-unassign": "Notas: Pode atribuir e desatribuir uma nota"
 }
