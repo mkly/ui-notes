@@ -1,6 +1,6 @@
 # Change history for ui-notes
 
-## [3.0.0] (IN PROGRESS)
+## [3.0.0] (https://github.com/folio-org/ui-notes/tree/v3.0.0) (2020-06-09)
 
 * Update react-intl to v4
 * Added permission display names to translations (UINOTES-79).
