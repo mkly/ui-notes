@@ -7,11 +7,11 @@
     "settings.maxAmout": "允许的附注类型最大为{amount} 。",
     "meta.title": "附注",
     "settings.general": "通用",
-    "permission.module.notes.enabled": "UI: ui-notes module is enabled",
-    "permission.notes.enabled": "Settings (notes): display list of settings pages",
-    "permission.item.view": "Notes: Can view a note",
-    "permission.item.create": "Notes: Can create a note",
-    "permission.item.edit": "Notes: Can edit a note",
-    "permission.item.delete": "Notes: Can delete a note",
-    "permission.item.assign-unassign": "Notes: Can assign and unassign a note"
+    "permission.module.notes.enabled": "UI：启用了ui-附注模块",
+    "permission.notes.enabled": "设置（附注）：显示设置页面列表",
+    "permission.item.view": "附注：可以查看附注",
+    "permission.item.create": "附注：可以创建附注",
+    "permission.item.edit": "附注：可以编辑附注",
+    "permission.item.delete": "附注：可以删除附注",
+    "permission.item.assign-unassign": "附注：可以分配和取消分配附注"
 }
