@@ -64,7 +64,7 @@ jobs:
           at: ~/
       - run:
           name: Build bundle
-          command: NODE_ENV=production yarn build
+          command: DEBUG=* NODE_ENV=production yarn build
 
   test-chrome:
     docker:
